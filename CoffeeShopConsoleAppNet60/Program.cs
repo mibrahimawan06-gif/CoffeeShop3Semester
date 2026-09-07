@@ -2,9 +2,9 @@
 
 using CoffeeShopConsoleAppNet60;
 
-BlackCoffee blackCoffee = new BlackCoffee();
-Latte latte = new Latte();
-Cortado cortado = new Cortado();
+BlackCoffee blackCoffee = new BlackCoffee(2);
+Latte latte = new Latte(5);
+Cortado cortado = new Cortado(3);
 
 List<Coffee> coffeeList = new List<Coffee> { blackCoffee, latte, cortado };
 
